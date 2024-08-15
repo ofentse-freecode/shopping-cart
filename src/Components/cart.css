@@ -1,0 +1,26 @@
+.cart{
+    margin:20px;
+    padding:20px;
+    background-color: white;
+    width:360px;
+    height:fit-content;
+    position:fixed;
+    right:0px;
+}
+.btns{
+    padding:15px 25px;
+    border-radius:50px;
+    width:100%;
+    background-color:rgb(255, 94, 0);
+    color:white;
+    border:none;
+    font-weight:400;
+}
+.cart p{
+    background-color: rgb(255, 248, 240);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    width:90%;
+}

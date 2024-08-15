@@ -1,0 +1,105 @@
+.dessert{
+    width:200px;
+    margin:20px;
+    padding:20px;
+}
+
+
+.row{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    width:200px;
+
+}
+.row img{
+    width:260px;
+    padding:10px;
+}
+
+.image{
+    border-radius: 20px;
+}
+
+.info{
+    text-align:left;
+    padding:0px;
+    margin:0px 0px 0px 15px;
+    position:relative;
+    top:-25px;
+}
+.btn{
+    background:white;
+    padding:6px 10px 6px 10px;
+    border-radius: 20px;
+    border-width:thin;
+    border-color:rgb(36, 36, 36);
+    position:relative;
+    top:-40px;
+    right:-57px;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn img{
+    width:20px;
+    padding:2px;
+}
+.btn-2{
+    border-radius: 55px;
+    background-color: rgb(248, 135, 70);
+    display:inline-flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0px 30px 0px 30px;
+    position:relative;
+    top:-30px;
+    left:-10px;
+    border:none;
+}
+
+.btn-2 img{
+    width:10px;
+    margin:5px;
+    border:solid;
+    border-radius: 50%;
+    border-width: 1px;
+    border-color: white;
+    height:10px;
+    padding:1px;
+    
+
+}
+.minus{
+    position:relative;
+    left:-20px;
+}
+.add{
+    position:relative;
+    right:-20px;
+}
+
+.section{
+    margin:0px;
+    padding:0px
+}
+
+.name{
+    font-weight:400;
+    color:rgb(194, 183, 170);
+    padding:0;
+    margin:0;
+}
+.description{
+    font-weight:600;
+    padding:0;
+    margin:5px 0px 5px 0px;
+}
+.price{
+    padding:0;
+    margin:0;
+    color:rgb(255, 115, 0);
+    font-weight:500;
+}
+
